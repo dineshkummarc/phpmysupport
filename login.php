@@ -12,7 +12,6 @@ include('./db_connect.php');
 <?php 
 if(isset($_SESSION['login_id']))
 header("location:index.php?page=home");
-
 ?>
 
 </head>
