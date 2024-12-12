@@ -32,14 +32,10 @@ header("location:index.php?page=home");
 		height: calc(100%);
 		display: flex;
 	}
-
 </style>
 
 <body class="bg-dark">
-
-
   <main id="main" >
-  	
   		<div class="align-self-center w-100">
 		<h4 class="text-white text-center"><b>Customer Support System</b></h4>
   		<div id="login-center" class="bg-dark row justify-content-center">
@@ -60,7 +56,6 @@ header("location:index.php?page=home");
   								<option value="3">Customer</option>
   								<option value="2">Staff</option>
   								<option value="1">Admin</option>
-  								
   							</select>
   						</div>
   						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button></center>
@@ -70,10 +65,7 @@ header("location:index.php?page=home");
   		</div>
   		</div>
   </main>
-
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-
 </body>
 <script>
 	$('#login-form').submit(function(e){
