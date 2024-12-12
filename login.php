@@ -9,7 +9,6 @@ include('./db_connect.php');
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Login | Customer Support System</title>
- 	
 
 <?php include('./header.php'); ?>
 <?php 
